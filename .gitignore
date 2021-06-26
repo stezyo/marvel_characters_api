@@ -1,0 +1,4 @@
+avengers_env
+_pycache_
+.env
+migrations
