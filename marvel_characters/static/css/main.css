@@ -51,6 +51,16 @@ ul#horizontal-list a:nth-last-child(1){
 /* Start of Features Section Styles */
 #api-image,#graphql-image,#database-image{
     margin-bottom: 10vh;
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+#api-image{
+    size: 20%
 }
 #features-section{
     margin: 8vw;
@@ -58,9 +68,13 @@ ul#horizontal-list a:nth-last-child(1){
 /* End of Features Section */
 /* Community Section Styles */
 #Drone-image{
-    width: 50%;
+    /* width: 50%;
     max-width: 75%;
-    margin-left: 3vw;
+    margin-left: 3vw; */
+    width: auto;
+    height: auto;
+    max-width: 800px;
+
 }
 /* End of Community Section */
 /* Footer Section Styles */
